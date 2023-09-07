@@ -24,6 +24,7 @@
     "afterscript": "latest",
     "eslint-config-aftereffects": "^1.1.0",
     "types-for-adobe": "^7.0.12",
-    "types-for-after-effects": "^1.0.0-beta"
+    "types-for-after-effects": "^1.0.0-beta",
+    "inquirer": "^9.2.10"
   }
 }
