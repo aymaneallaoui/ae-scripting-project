@@ -1,0 +1,26 @@
+{
+  "name": "afterscript-starter",
+  "version": "1.0.0",
+  "description": "AfterScript starter template",
+  "main": "index.js",
+  "afterscript": {
+    "name": "AfterScript project setup"
+  },
+  "scripts": {
+    "build": "afterscript build",
+    "build-production": "NODE_ENV=production afterscript build"
+  },
+  "keywords": [
+    "after effects",
+    "afterscript"
+  ],
+  "author": "praxe",
+  "license": "ISC",
+  "dependencies": {
+    "ae-export-curves": "^0.0.2",
+    "afterscript": "latest",
+    "eslint-config-aftereffects": "^1.1.0",
+    "types-for-adobe": "^7.0.12",
+    "types-for-after-effects": "^1.0.0-beta"
+  }
+}
