@@ -1,6 +1,6 @@
 {
   "name": "afterscript-project-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "AfterScript starter template",
   "main": "index.js",
   "afterscript": {
