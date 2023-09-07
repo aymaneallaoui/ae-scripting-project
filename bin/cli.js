@@ -14,7 +14,7 @@ const runCommmand = (command) => {
 
 const repoName = process.argv[2];
 
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/aymaneallaoui/ae-project-starter ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/aymaneallaoui/ae-scripting-project ${repoName}`;
 
 const installDependenciesCommand = `cd ${repoName} && npm install`;
 
