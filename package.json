@@ -1,12 +1,17 @@
 {
-  "name": "afterscript-starter",
+  "name": "afterscript-project-template",
   "version": "1.0.0",
   "description": "AfterScript starter template",
   "main": "index.js",
   "afterscript": {
     "name": "AfterScript project setup"
   },
+  "bin": {
+    "createComp": "./after-effects-command.js"
+  },
   "scripts": {
+    "createComp": "node createComp.mjs",
+    "GetCurves": "node curvesExporter.mjs",
     "build": "afterscript build",
     "build-production": "NODE_ENV=production afterscript build"
   },
